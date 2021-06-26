@@ -1,1 +1,1 @@
-# GameOFTeens_JAVASCRIPT
+# GameOFTeens_Javascript
