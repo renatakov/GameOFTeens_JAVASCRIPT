@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div>
         <Container style={{ "margin-top": "70px" }}>
-          тут будет текст про тести, краткое описание что ето <br />
+          тут будет текст про тести, краткое описание что это <br />
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
           voluptas libero doloribus, quia ipsam ut ad maxime. Id, eius odit,
           molestias quis, impedit nam molestiae quisquam dolorem ducimus
