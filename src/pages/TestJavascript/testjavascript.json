@@ -1,0 +1,213 @@
+[
+  {
+    "question": "Какое будет выведено значение? 'let x = 5;' 'alert( x++ );'",
+    "answers": [
+      {
+        "answer": "5",
+        "right": true
+      },
+      {
+        "answer": "0",
+        "right": false
+      },
+      {
+        "answer": "6",
+        "right": false
+      },
+      {
+        "answer": "Другое",
+        "right": false
+      }
+    ]
+  },
+
+  {
+    "question": "Чему равно значение выражения '4 - '5' + 0xf - '1e1'?'",
+    "answers": [
+      {
+        "answer": "Цифре.",
+        "right": true
+      },
+      {
+        "answer": "Строке",
+        "right": false
+      },
+      {
+        "answer": "NaN",
+        "right": false
+      },
+      {
+        "answer": "Ошибка в коде",
+        "right": false
+      }
+    ]
+  },
+  {
+    "question": "Чему равен typeof null в режиме use strict?",
+    "answers": [
+      {
+        "answer": "null",
+        "right": false
+      },
+      {
+        "answer": "undefined",
+        "right": false
+      },
+      {
+        "answer": "object",
+        "right": true
+      },
+      {
+        "answer": "string",
+        "right": false
+      }
+    ]
+  },
+  {
+    "question": "Что выведет alert? 'let str = 'Hello';str.something = 5;alert(str.something)'",
+    "answers": [
+      {
+        "answer": "5",
+        "right": false
+      },
+      {
+        "answer": "undefined",
+        "right": false
+      },
+      {
+        "answer": "Будет ошибка.",
+        "right": true
+      },
+      {
+        "answer": "NaN",
+        "right": false
+      }
+    ]
+  },
+  {
+    "question": "Что делает оператор ===?",
+    "answers": [
+      {
+        "answer": "Сравнивает по ссылке, а не по значению.",
+        "right": false
+      },
+      {
+        "answer": "Сравнивает без приведения типа.",
+        "right": true
+      },
+      {
+        "answer": "Нет такого оператора.",
+        "right": false
+      },
+      {
+        "answer": "Это просто знак равно",
+        "right": false
+      }
+    ]
+  },
+  {
+    "question": "Что выведет sayHi при вызове через setTimeout?'let name = 'Вася';function sayHi() {alert(name);}setTimeout(function() { 'let name = 'Петя';sayHi();}, 1000);'",
+    "answers": [
+      {
+        "answer": "Вася.",
+        "right": true
+      },
+      {
+        "answer": "Петя.",
+        "right": false
+      },
+      {
+        "answer": "undefined",
+        "right": false
+      },
+      {
+        "answer": "Будет ошибка",
+        "right": false
+      }
+    ]
+  },
+  {
+    "question": "Что выведет этот скрипт?'use strict';a = null + undefined;alert(a);",
+    "answers": [
+      {
+        "answer": "null",
+        "right": false
+      },
+      {
+        "answer": "undefined",
+        "right": false
+      },
+      {
+        "answer": "NaN",
+        "right": false
+      },
+      {
+        "answer": "В коде ошибка.",
+        "right": true
+      }
+    ]
+  },
+  {
+    "question": "Что выведет этот код?'function User() { }User.prototype = { admin: false };let user = new User();User.prototype = { admin: true };alert(user.admin);",
+    "answers": [
+      {
+        "answer": "false",
+        "right": true
+      },
+      {
+        "answer": "undefined",
+        "right": false
+      },
+      {
+        "answer": "true",
+        "right": false
+      },
+      {
+        "answer": "В коде ошибка.",
+        "right": true
+      }
+    ]
+  },
+  {
+    "question": "Что выведет этот код?'function F() { return F; }alert( new F() instanceof F );alert( new F() instanceof Function );'",
+    "answers": [
+      {
+        "answer": "false, false.",
+        "right": false
+      },
+      {
+        "answer": "false, true.",
+        "right": true
+      },
+      {
+        "answer": "true, false.",
+        "right": false
+      },
+      {
+        "answer": "true, true.",
+        "right": true
+      }
+    ]
+  },
+  {
+    "question": "Внимательно посмотрите на синтаксис этого кода. Что он выведет?let f = function(x) {alert(x)}(function() {f(1)}())",
+    "answers": [
+      {
+        "answer": "Никакого результата.",
+        "right": false
+      },
+      {
+        "answer": "Выведет 1.",
+        "right": false
+      },
+      {
+        "answer": "Выведет undefined.",
+        "right": false
+      },
+      {
+        "answer": "Будет ошибка.",
+        "right": true
+      }
+    ]
+  }
+]
