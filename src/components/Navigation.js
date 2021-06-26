@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,7 +9,8 @@ class Navigation extends Component {
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand style={{color: 'red'}}>Logo</Navbar.Brand>
+          <Navbar.Brand style={{color: 'red'}}>Language Tests</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse>
             <Nav>
               <Nav.Link>
@@ -19,7 +20,7 @@ class Navigation extends Component {
                 <Link style={{color: 'red'}} to="/tests">Tests</Link>
               </Nav.Link> */}
               <Nav.Link>
-                <Link style={{color: 'red'}} to="/testhtmlcss">Test HTML/CSS</Link>
+                <Link style={{color: 'red'}} to="/testhtmlcss">Test Html/Css</Link>
               </Nav.Link>
               <Nav.Link>
                 <Link style={{color: 'red'}} to="/testjavascript">Test JavaScript</Link>
