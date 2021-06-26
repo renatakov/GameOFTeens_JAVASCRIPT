@@ -19,7 +19,7 @@ class Navigation extends Component {
                 <Link style={{color: 'red'}} to="/tests">Tests</Link>
               </Nav.Link> */}
               <Nav.Link>
-                <Link style={{color: 'red'}} to="/testhtmlcss">Test Html/Css</Link>
+                <Link style={{color: 'red'}} to="/testhtmlcss">Test HTML/CSS</Link>
               </Nav.Link>
               <Nav.Link>
                 <Link style={{color: 'red'}} to="/testjavascript">Test JavaScript</Link>
