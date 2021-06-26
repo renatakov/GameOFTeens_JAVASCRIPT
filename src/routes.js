@@ -9,10 +9,24 @@ export default [
     }),
   },
   {
-    path: "/tests",
+    path: "/testhtmlcss",
     exact: true,
     component: lazy(() => {
-      return import("./pages/Tests");
+      return import("./pages/TestHtmlCss/TestHtmlCss");
+    }),
+  },
+  {
+    path: "/testjavascript",
+    exact: true,
+    component: lazy(() => {
+      return import("./pages/TestJavascript/TestJavascript")
+    }),
+  },
+  {
+    path: "/testcplusplus",
+    exact: true,
+    component: lazy(() => {
+      return import("./pages/TestCPlusPlus/TestCPlusPlus");
     }),
   },
 ];
