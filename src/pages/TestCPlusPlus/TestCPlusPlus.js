@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container } from 'react-bootstrap';
 
 import Form from '../../components/Form';
-import json from './qustion.json';
+import json from './testcplusplus.json';
 
 class TestCPlusPlus extends Component {
   state = {};

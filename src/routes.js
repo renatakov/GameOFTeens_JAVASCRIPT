@@ -29,8 +29,4 @@ export default [
       return import("./pages/TestCPlusPlus/TestCPlusPlus");
     }),
   },
-<<<<<<< HEAD
 ];
-=======
-]
->>>>>>> f0f71941a4ee726e861f7ceec20e58152cd34a43

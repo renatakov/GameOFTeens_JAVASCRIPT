@@ -57,10 +57,16 @@ class Form extends Component {
       case 'result':
         return (
           <Container>
-            Right:{' '}{this.state.right}{' '}
-            Percentage:{' '}
+            Right: {this.state.right} Percentage:{' '}
             {Math.round((this.state.right / this.state.questions.length) * 100)}
             &#37;
+            <hr />
+            {this.state.right == this.state.questions.length &&
+              'Ти попав в яблучко - цей напрямок ідеально підходить для тебе'}
+            {(this.state.right / this.state.questions.length) * 100 >= 80 &&
+              'Ти майже впорався. Відчуваєш це твоє? Обирай цей курс! Маєш сумніви - спробуй інший напрямок'}
+            {(this.state.right / this.state.questions.length) * 100 < 80 &&
+              'Схоже цей напрямок тобі не по душі. Обирай іншу категорію і спробуй свої сили в чомусь новому'}
             <hr />
             <Button variant="outline-dark" onClick={this.onClick}>
               Restart
