@@ -50,7 +50,7 @@ class Form extends Component {
       case 'disable':
         return (
           <Button variant="outline-secondary" onClick={this.onClick}>
-            Start
+            Начать
           </Button>
         );
 
@@ -69,7 +69,7 @@ class Form extends Component {
               'Схоже цей напрямок тобі не по душі. Обирай іншу категорію і спробуй свої сили в чомусь новому'}
             <hr />
             <Button variant="outline-dark" onClick={this.onClick}>
-              Restart
+              Начать заново
             </Button>
           </Container>
         );

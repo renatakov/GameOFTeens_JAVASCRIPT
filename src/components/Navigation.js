@@ -15,7 +15,7 @@ class Navigation extends Component {
             <Nav>
               <Nav.Link>
                 <Link style={{ color: 'red' }} to="/">
-                  Home
+                  Главная
                 </Link>
               </Nav.Link>
               {/* <Nav.Link>
@@ -23,17 +23,17 @@ class Navigation extends Component {
               </Nav.Link> */}
               <Nav.Link>
                 <Link style={{ color: 'red' }} to="/testhtmlcss">
-                  Test Html/Css
+                  Тест Html/Css
                 </Link>
               </Nav.Link>
               <Nav.Link>
                 <Link style={{ color: 'red' }} to="/testjavascript">
-                  Test JavaScript
+                  Тест JavaScript
                 </Link>
               </Nav.Link>
               <Nav.Link>
                 <Link style={{ color: 'red' }} to="/testcplusplus">
-                  Test C++
+                  Тест C++
                 </Link>
               </Nav.Link>
             </Nav>
