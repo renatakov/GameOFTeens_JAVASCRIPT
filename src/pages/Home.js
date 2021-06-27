@@ -6,15 +6,16 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Container style={{ 'margin-top': '70px' }}>
-          тут будет текст про тести, краткое описание что это <br />
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
-          voluptas libero doloribus, quia ipsam ut ad maxime. Id, eius odit,
-          molestias quis, impedit nam molestiae quisquam dolorem ducimus
-          reprehenderit eaque? Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Amet, deserunt! Suscipit enim deleniti quidem
-          dignissimos inventore iusto quaerat autem ut eum debitis vero est,
-          fugit, ipsa iste. Recusandae, impedit accusantium!
+        <Container
+          style={{
+            'margin-top': '70px',
+          }}
+        >
+          Тут будет текст про тести, краткое описание что это <br />
+          На нашем сайте вы можете протестировать свои знания C++, JavaScript и
+          HTML/CSS и, возможно, узнать что-то новое для себя
+          <br />
+          Улучшайте свои знания и навыки!
         </Container>
       </div>
     );
