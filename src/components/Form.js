@@ -12,7 +12,7 @@ class Form extends Component {
   };
 
   onClick = () => {
-    this.setState({ status: 'eneble', count: 0 });
+    this.setState({ status: 'enable', count: 0 });
   };
 
   next = () => {
@@ -35,7 +35,7 @@ class Form extends Component {
 
   status = status => {
     switch (status) {
-      case 'eneble':
+      case 'enable':
         return (
           <FormItem
             item={this.state.questions[this.state.count]}
